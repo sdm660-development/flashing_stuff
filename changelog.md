@@ -1,13 +1,4 @@
-- Initial k4.19 build.
-- CLEAN FLASH MANDATORY.
-- NekoKernel by default
-- Retrofit Dynamic Partitions build.
-- Build and enable fastbootd.
-- Used logdump as /metadata.
-- Inbuilt GCamGOPrebuilt-V3_8.
-- Recovery decrypted doesn't work (at least for now).
-- Inbult Xiaomi Parts aka DeviceSettings.
-- If you want to use KernelSU just flash the [boot.img](https://sourceforge.net/projects/evolution-x/files/lavender/13/boot.img/download) in SourceForge.
-- L3 for now.
-- If you faced any bug report it kindly with proper logcat, no logs -> no bug :)
-- Safetynet passes by default.
+- Initial A14 k4.19 build
+- CLEAN FLASH MANDATORY
+- Fixed random screen wake up issue
+- Fixed power button wake up delay
